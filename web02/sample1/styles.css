@@ -1,0 +1,42 @@
+/* CSS File */
+
+body {
+    font-family: Times, serif;
+    background-color: beige;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+table {
+    /* Dünner, durchgehender, schwarzer Rand */
+    border: thin solid #000000;
+
+    /* Keine doppelten Ränder für angrenzende Zellen */
+    border-collapse: collapse;
+}
+
+/* Tabellenüberschriften */
+th {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: left; }
+
+/* Tabellenüberschriften und Zellen */
+th, td {
+    padding: 11px;
+}
+/* Ungerade Zeilen */
+tr:nth-child(odd) {
+    background-color: #CCCCCC;
+}
+
+/* Gerade Zeilen */
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
