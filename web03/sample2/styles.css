@@ -1,0 +1,20 @@
+h1 {
+    color: black;
+    background-color: beige;
+}
+
+h1 {
+    color: blue;
+}
+
+* {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+.paragraph p {
+    color: red;
+}
