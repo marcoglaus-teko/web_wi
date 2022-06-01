@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JS</title>
+    <script rel="stylesheet" src="styles/styles.css" type="text/css"></script>
+</head>
+<body>
+    <button onclick="doAlert()">click me</button>
+    <!-- Externes JavaScript File einbinden -->
+    <script type="application/javascript" src="scripts/main.js"></script>
+
+    <!-- JavaScript direkt innerhalb HTML definieren -->
+    <script type="application/javascript">
+        function sum() {
+            const a = parseInt(document.getElementById('firstnumber').value)
+            const b = parseInt(document.getElementById('secondnumber').value)
+            const sum = a+b;
+            alert(sum);
+        }
+
+        function sum(a, b) {
+            const sum = parseInt(a)+parseInt(b);
+            alert(sum);
+        }
+
+    </script>
+
+    <form>
+        <label for="firstnumber">First number:</label>
+        <input type="number" id="firstnumber" name="fn"><br><br>
+        <label for="secondnumber">Last name:</label>
+        <input type="number" id="secondnumber" name="sn"><br><br>
+        <input type="submit" value="Submit" onclick="sum(fn.value, sn.value)">
+    </form>
+
+</body>
+</html>
