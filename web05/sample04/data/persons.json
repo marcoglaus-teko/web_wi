@@ -1,0 +1,19 @@
+{
+  "persons": [
+    {
+      "firstName": "Max",
+      "lastName": "Mustermann",
+      "position": "CTO"
+    },
+    {
+      "firstName": "Moritz",
+      "lastName": "Mustermann",
+      "position": "CEO"
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Mustermann",
+      "position": "Software Developer"
+    }
+  ]
+}
